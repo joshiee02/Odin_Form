@@ -23,49 +23,50 @@
                 <h1>Sign up now to get started.</h1>
                 <h1>You <i>know</i> you want to.</h1>
             </header>
-            <form>
+            <form id="form">
                 <p>Let's do this!</p>
                 <fieldset>
                     <div>
-                        <h6>First Name</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="name">
+                            <h6>First Name</h6>
+                            <input type="text" id="name" name="name" required>
                         </label>
                     </div>
                     <div>
-                        <h6>Last Name</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="last_name">
+                            <h6>Last Name</h6>
+                            <input type="text" id="last_name" name="last_name" required>
                         </label>
                     </div>
                     <div>
-                        <h6>Email</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="email">
+                            <h6>Email</h6>
+                            <input type="email" id="email" name="email">
                         </label>
                     </div>
                     <div>
-                        <h6>Phone Number</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="tel">
+                            <h6>Phone Number</h6>
+                            <input type="tel" id="tel" name="tel">
                         </label>
                     </div>
                     <div>
-                        <h6>Password</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="password">
+                            <h6>Password</h6>
+                            <input type="password" id="password" name="password" required>
                         </label>
                     </div>
                     <div>
-                        <h6>Confirm Password</h6>
-                        <label for="">
-                            <input type="text">
+                        <label for="confirm_password">
+                            <h6>Confirm Password</h6>
+                            <input type="password" id="confirm_password" required>
                         </label>
                     </div>
+                    <span></span>
                 </fieldset>
             </form> 
             <footer>
-                <button type="submit">Create Account</button>
+                <button type="submit" form="form">Create Account</button>
                 <h4>Already have an account? <span>Log in</span></h4>
             </footer>
             
