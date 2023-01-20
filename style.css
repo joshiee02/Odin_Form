@@ -129,6 +129,7 @@ div.form_container > form > fieldset input{
 	border: 1px solid #E5E7EB;
 	width: 220px;
 	height: 20px;
+	font-weight: bold;
 }
 div.form_container > form > fieldset input:invalid{
 	border: 1px solid red;
