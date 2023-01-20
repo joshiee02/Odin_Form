@@ -98,7 +98,6 @@ div.form_container > header{
 	flex-direction: column;
 	padding: 0 2.5rem;
 	padding-top: 4.5rem;
-	background-color: #F8F8FF;
 }
 div.form_container > header> h1:last-child{
 	margin-top: 2rem;
@@ -147,7 +146,9 @@ div.form_container > form span::before{
 	color: red;
 	top: 67px;
 	left: -532px;
+	visibility: hidden;
 }
+
 div.form_container > form > fieldset h6{
 	font-size: 0.8rem;
 	color: #36454F;
